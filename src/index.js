@@ -5,10 +5,10 @@ import './sass/main.scss';
 
 const menuContainer = document.querySelector('.js-menu');
 
-const menuMarkup = createMenuItem(menu);
+// const menuMarkup = createMenuItem(menu);
 
-menuContainer.insertAdjacentHTML('beforeend', menuMarkup);
+menuContainer.insertAdjacentHTML('beforeend', menuCard(menu));
 
-function createMenuItem(menu) {
-  return menu.map(menuCard).join('');
-}
+// function createMenuItem(menu) {
+//   return menu.map(menuCard).join('');
+// }

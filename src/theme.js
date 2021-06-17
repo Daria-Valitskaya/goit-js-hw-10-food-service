@@ -1,4 +1,4 @@
-const body = document.querySelector('body');
+const body = document.body;
 const changerTheme = document.querySelector('#theme-switch-toggle');
 const Theme = {
   LIGHT: 'light-theme',
